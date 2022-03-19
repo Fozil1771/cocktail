@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Philosopher:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+@import url("./global.css");
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Philosopher', sans-serif;
+ */

@@ -7,49 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cocktail</title>
     <link rel="stylesheet" href="./css/main.css">
+
 </head>
 
 <body>
     <div>
         <header>
-            <nav class="nav">
-                <div class="nav-top d-flex j-between">
-                    <div class="arrow"></div>
-                    <h5 class="nav-top__text">Free domestic shipping on orders over $50 <a href="#">Learn more</a></h5>
-                    <div class="arrow"></div>
+            <nav class="nav-dark">
+                <div class="container">
+                    <div class="nav-top d-flex j-between">
+                        <div class="arrow arrow-left"><img src="./assets/icons/arrow.svg" alt=""></div>
+                        <h5 class="nav-top__text">Free domestic shipping on orders over $50
+                            <a href="#">Learn more</a>
+                        </h5>
+                        <div class="arrow arrow-right"><img src="./assets/icons/arrow.svg" alt=""></div>
+                    </div>
                 </div>
-                <ul class="nav-list d-flex">
-                    <li class="nav-list__item d-flex">
-                        <span>Shop</span>
-                        <span><img src="./assets/icons/arrow.svg" alt="icon arrow"></span>
-                    </li>
-                    <li class="nav-list__item">About</li>
-                    <li class="nav-list__item d-flex">
-                        <span>Fun stuff</span>
-                        <span><img src="./assets/icons/arrow.svg" alt="icon arrow"></span>
-                    </li>
-                    <li class="nav-list__item">Find us</li>
-                </ul>
-                <div class="nav-logo">
-                    <img src="./assets/icons/logo.svg" alt="logo">
-                </div>
-                <ul class="nav-list d-flex">
-                    <li class="nav-list__item d-flex">
-                        <span><img src="./assets/icons/usa.svg" alt="icon usa"></span>
-                        <span>usa</span>
-                        <span><img src="./assets/icons/arrow.svg" alt="icon arrow"></span>
-                    </li>
-                    <li class="nav-list__item">Contact</li>
-                    <li class="nav-list__item">
-                        Login
-                    </li>
-                    <li class="nav-list__item">
-                        <span class="basket-counter">0</span>
-                        <span><img src="./assets/icons/basket.svg" alt="icon basket"></span>
-                    </li>
-                </ul>
             </nav>
+            <div class="container">
+                <nav class="nav d-flex j-between">
+
+                    <ul class="nav-list d-flex align-center">
+                        <li class="nav-list__item d-flex align-center nav-list__dropdown">
+                            <span>Shop</span>
+                            <div class="arrow dropdown-arrow"><img src="./assets/icons/arrow-dark.svg" alt="icon arrow">
+                            </div>
+                        </li>
+                        <li class="nav-list__item"><span>About</span></li>
+                        <li class="nav-list__item nav-list__dropdown d-flex align-center">
+                            <span>Fun stuff</span>
+                            <div class="arrow dropdown-arrow"><img src="./assets/icons/arrow-dark.svg" alt="icon arrow">
+                            </div>
+                        </li>
+                        <li class="nav-list__item">Find us</li>
+                    </ul>
+                    <div class="nav-logo">
+                        <img src="./assets/icons/logo.svg" alt="logo">
+                    </div>
+                    <ul class="nav-list d-flex align-center">
+                        <li class="nav-list__item d-flex align-center nav-list__dropdown">
+                            <div class="nav-list__flag"><img src="./assets/icons/usa.svg" alt="icon usa"></div>
+                            <span>usa</span>
+                            <div class="arrow dropdown-arrow"><img src="./assets/icons/arrow-dark.svg" alt="icon arrow">
+                            </div>
+                        </li>
+                        <li class="nav-list__item"><span>Contact</span></li>
+                        <li class="nav-list__item">
+                            <span>Login</span>
+                        </li>
+                        <li class="nav-list__item d-flex align-center nav-list__basket">
+                            <span class="basket-counter">0</span>
+                            <span><img src="./assets/icons/basket.svg" alt="icon basket"></span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+
         <main>
 
         </main>

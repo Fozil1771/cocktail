@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* container */
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* flex */
+
+.d-flex {
+    display: flex;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}

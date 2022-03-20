@@ -1,0 +1,37 @@
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-content {
+    width: 50%;
+    flex-direction: column;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-content__title .h1 {
+    margin: 45px 0;
+    font-size: 75px;
+    text-align: center;
+}
+
+.banner-content__sub-title,
+.banner-content__link {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero-content__bg {
+    position: absolute;
+    z-index: -1;
+}

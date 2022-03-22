@@ -1,3 +1,51 @@
 .product-card {
-    flex: 1 0 25%;
+    max-width: 340px;
+    width: 100%;
+    padding: 24px;
+}
+
+.product-card h4 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+.product-card__text {
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+
+.comment-card {
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.comments-card__text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.comment-card__quote {
+    width: 19px;
+    height: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.comment-card__brand {
+    width: 106px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+
+
+.comment-card .quote-180 {
+    transform: rotate(180deg);
 }

@@ -1,6 +1,8 @@
 .hero {
     width: 100%;
     position: relative;
+
+
 }
 
 .hero-img {
@@ -10,20 +12,47 @@
 .hero-content {
     width: 50%;
     flex-direction: column;
+    align-self: stretch;
+    background: #FFFBF7;
 }
 
 .banner-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.banner-image {
+    max-height: 810px;
+    height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner1-bg {
+    background-image: url("../assets/img/banner1.png");
+
 }
 
 
-.banner-content__title .h1 {
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-content__title h1 {
     margin: 45px 0;
     font-size: 75px;
     text-align: center;
 }
+
 
 .banner-content__sub-title,
 .banner-content__link {

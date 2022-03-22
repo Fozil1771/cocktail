@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Philosopher:wght@400;700&display=swap');
 @import url("./_global.css");
 @import url("./_flex.css");
+@import url("./_sizing.css");
 @import url("./_navbar.css");
 @import url("./_hero.css");
+@import url("./_cards.css");
+@import url("./_products.css");
 
 
+/* owl */
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    padding: 40px 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #BB6B1E;
+}
 
 
 

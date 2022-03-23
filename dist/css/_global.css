@@ -41,6 +41,11 @@ h6 {
     font-size: 80px;
 }
 
+.text-14 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .white {
     color: #fff;
 }
@@ -63,6 +68,7 @@ li {
     text-decoration: underline;
     transition: .3s;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .link-dark {
@@ -91,15 +97,88 @@ li {
 }
 
 
-/* comments part */
 
-.comments-bg {
+
+.bg-cream {
     background: #FFFBF6;
 }
+
+/* comments part */
+
 
 .comments {
     background: #FFFBF6;
     width: 100%;
     margin: 0 auto 56px auto;
     padding-top: 20px;
+}
+
+
+.newin {
+    width: 100%;
+    margin: 0 auto 56px auto;
+    padding-top: 20px;
+}
+
+/* flex banner */
+
+.flex-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap-reverse; */
+    column-gap: 40px;
+    padding: 0 80px;
+}
+
+.ingredients {
+    padding: 40px 80px;
+    margin-bottom: 35px;
+}
+
+.ingredients-info__text {
+    margin-top: 46px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ingredients-card {
+    margin-top: 46px;
+}
+
+.ingredients-card .ingredients-card__title {
+    text-align: center;
+}
+
+.ingredients-card__title {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+
+.section-link {
+    margin-top: 54px;
+}
+
+.cocktails {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .cocktails {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.cocktail-img {
+    width: 100%;
+}
+
+.cocktail-img img {
+    display: block;
+    width: 100%;
 }

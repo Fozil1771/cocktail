@@ -18,7 +18,12 @@
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #BB6B1E;
 }
+/* .owl-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+} */
 
 
 /* 
